@@ -133,7 +133,7 @@
             var script = document.createElement('script');
             script.setAttribute('id', 'jsonScript');
             script.setAttribute('type', 'text/javascript');
-            //console.log(similarartists[current_id]);
+            console.log(similarartists[current_id]);
             script.setAttribute('src', 'http://gdata.youtube.com/feeds/api/playlists/snippets?alt=json-in-script&q='+art_name+'&start-index=1&max-results=1&v=2&callback=showVideo');
             document.documentElement.firstChild.appendChild(script);
             return false;
